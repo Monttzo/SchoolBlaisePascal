@@ -1,0 +1,49 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.menunav {
+	margin: 0px;
+	padding: 0px 3px;
+	width: 100%;
+	display: block;
+	font-size: 18.5px;
+}
+.menunav  a {
+	padding: 5px 0px;
+	background-color: #220e24;
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+.menu {
+	margin: 0px;
+	padding: 0px;
+}
+.menu > li{
+	margin: 0px -3px; 
+	text-align: center;
+	width: 14.38%;
+	list-style: none;
+	display: inline-block;
+}
+.submenu {
+	position: absolute;
+	display: none;
+	list-style: none;
+	padding: 0px;
+}
+.menunav a:hover {
+	padding: 5px 0px;
+	background-color: #36454F;
+	transition: all 0.5s;
+}
+.menu li:hover .submenu{
+	width: 14.38%;
+	display: block;
+	text-align: center;
+}
